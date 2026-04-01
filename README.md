@@ -44,4 +44,4 @@ wget https://pjreddie.com/media/files/yolov3.weights # (/model dizinine taşınm
 pip install -r requirements.txt
 
 # 4. Projenin Çalıştırılması
-# python3 main.py
+python3 main.py
