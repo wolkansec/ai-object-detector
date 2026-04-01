@@ -6,10 +6,10 @@ Python ve OpenCV kullanarak YOLOv3 (You Only Look Once) nesne tespit modelini
 ## Özellikler
 
 - **80 farklı nesne sınıfı** tespiti (COCO veri seti)
-- **Tek resim işleme** veya **klasör toplu işleme** desteği
-- **Görselleştirilmiş çıktı** ile sınırlayıcı kutular ve güven skorları
+- **Resim, Video veya WebCam üzerinden işleme** veya **klasör toplu işleme** desteği
+- **Görselleştirilmiş çıktı ve güven düzeyi**
 - **Hızlı kurulum** - sadece OpenCV ve NumPy gereksinimi
-- **Özelleştirilebilir parametreler** (güven eşiği, NMS threshold)
+- **Özelleştirilebilir nesne etiketleri**
 
 ## Tespit Edilebilen Nesneler
 
