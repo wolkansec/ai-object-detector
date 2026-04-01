@@ -18,7 +18,7 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 (sırt çantası, şemsiye, kitap, kupa) ve daha fazlası.
 
 ### Örnekler
-<img src="examples/city_detection.jpg" width="600" alt="Şehir Tespiti">
+<img src="detection_examples/ScreenShot1.jpg" width="600" alt="Şehir Tespiti">
 
 ## Kurulum
 
