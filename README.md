@@ -20,12 +20,8 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 ### Örnekler
 <p align="center">
   <img src="detection_examples/ScreenShot1.png" width="32%" />
-  <img src="detection_examples/ScreenShot2.png" width="32%" />
   <img src="detection_examples/ScreenShot3.png" width="32%" />
-</p>
-
-<p align="center">
-  <b>Şehir Sokağı</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>Çalışma Masası</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>Park Sahnesi</b>
+  <img src="detection_examples/ScreenShot2.png" width="32%" />
 </p>
 
 ## Kurulum
