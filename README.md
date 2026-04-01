@@ -1,5 +1,5 @@
 # Yapay Zeka ile Nesne Tespiti
-Python, OpenCV, Numpy ve YOLOv3 nesne tespit modelini kullanarak; resimlerden, videolardan veya canlı kameralardan nesneleri tespit eden görüntü analiz aracı.
+Python, OpenCV, Numpy ve YOLOv3 nesne tespit modelini kullanarak resimlerden, videolardan veya canlı kameralardan nesneleri tespit eden görüntü analiz aracı.
 
 ## Özellikler
 - **80 Farklı Nesne Sınıfı**
