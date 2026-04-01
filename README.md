@@ -35,7 +35,8 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 git clone https://github.com/wolkansec/ai-object-detector
 cd ai-object-detector
 
-# 2. Gereksinimlerin Kurulması
+# 2. Modelin İndirilmesi ve Gereksinimlerin Kurulması 
+wget https://pjreddie.com/media/files/yolov3.weights (/model dizinine taşınılması gereklidir!)
 pip install -r requirements.txt
 
 # 4. Projenin Çalıştırılması
