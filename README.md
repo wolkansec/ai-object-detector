@@ -21,7 +21,7 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 <p align="center">
   <img src="detection_examples/ScreenShot1.png" width="32%" />
   <img src="detection_examples/ScreenShot2.png" width="32%" />
-  <img src="detection_examples/ScreenShot3.png" width="42%" />
+  <img src="detection_examples/ScreenShot3.png" width="35%" />
 </p>
 
 ## Kurulum
