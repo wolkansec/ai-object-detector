@@ -1,0 +1,25 @@
+# =============================================================================
+# YOLO Image Analysis - Python Dependencies
+# =============================================================================
+# Installation: pip install -r requirements.txt
+
+# Core computer vision library
+# Provides: image processing, DNN module for YOLO inference, GUI functions
+opencv-python>=4.5.0
+
+# Numerical operations and array handling
+# Used for: coordinate calculations, color generation, NMS operations
+numpy>=1.19.0
+
+# Optional: For faster NumPy operations (BLAS optimized)
+# numpy==1.23.5+mkl  # Windows users with MKL support
+
+# Optional: Progress bars for batch processing
+# tqdm>=4.60.0
+
+# Optional: Command-line argument parsing (if adding CLI interface)
+# argparse  # Built-in, no install needed
+
+# Optional: GPU acceleration (requires CUDA setup)
+# For NVIDIA GPUs, install opencv-python with CUDA support manually
+# See: https://docs.opencv.org/4.x/d2/d58/tutorial_table_of_content_dnn.html
