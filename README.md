@@ -20,6 +20,11 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
   <img src="detection_examples/ScreenShot3.png" width="35%" />
 </p>
 
+
+<p align="center">
+  <b>WebCam 1</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>WebCam 2</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>Örnek Resim</b>
+</p>
+
 ## Kurulum
 ### Gereksinimler
 - Python 3.7+
