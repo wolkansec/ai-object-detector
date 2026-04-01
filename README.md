@@ -2,11 +2,11 @@
 Python, OpenCV, Numpy ve YOLOv3 nesne tespit modelini kullanarak resimlerden, videolardan veya canlı kameralardan nesneleri tespit eden görüntü analiz aracı.
 
 ## Özellikler
-- **80 Farklı Nesne Sınıfı**
-- **Resim, Video veya WebCam Üzerinden İşleme**
-- **Görselleştirilmiş Çıktı ve Güven Düzeyi**
-- **Hızlı kurulum**
-- **Özelleştirilebilir Nesne Etiketleri**
+- 80 Farklı Nesne Sınıfı**
+- Resim, Video veya WebCam Üzerinden İşleme
+- Görselleştirilmiş Çıktı ve Güven Düzeyi
+- Hızlı kurulum
+- Özelleştirilebilir Nesne Etiketleri
 
 ## Tespit Edilebilen Nesneler
 İnsanlar, araçlar (araba, bisiklet, otobüs, uçak), hayvanlar (kedi, köpek, kuş, at), 
