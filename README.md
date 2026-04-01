@@ -29,19 +29,11 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 
 ```bash
 # 1. Repoyu klonla
-git clone https://github.com/kullaniciadi/yolo-goruntu-analiz.git
-cd yolo-goruntu-analiz
+git clone https://github.com/wolkansec/ai-object-detector
+cd ai-object-detector
 
-# 2. Sanal ortam oluştur (önerilir)
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# veya
-venv\Scripts\activate  # Windows
-
-# 3. Bağımlılıkları yükle
+# 2. Gereksinimlerin Kurulması
 pip install -r requirements.txt
 
-# 4. YOLO model dosyalarını indir
-# yolov3.weights: https://pjreddie.com/media/files/yolov3.weights
-# yolov3.cfg: https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg?raw=true
-# İndirilen dosyaları proje kök dizinine yerleştir
+# 4. Projenin Çalıştırılması
+# python3 main.py
