@@ -50,7 +50,7 @@ while True:
 
     height, width = image.shape[0], image.shape[1]
     
-    # YOLO için blob oluştur
+    # YOLOr
     yolo_blob = cv2.dnn.blobFromImage(image, 0.00392, (416, 416), (0, 0, 0), True, crop=False)
     yolo_net.setInput(yolo_blob)
     yolo_outs = yolo_net.forward(output_layers)
@@ -66,13 +66,13 @@ while True:
             confidence = scores[class_id]
             
             if confidence > min_confidence:
-                # Nesne merkezi ve boyutları
+                # Nesne boyutları
                 center_x = int(detection[0] * width)
                 center_y = int(detection[1] * height)
                 w = int(detection[2] * width)
                 h = int(detection[3] * height)
                 
-                # Köşe koordinatları
+                # Koordinatlar
                 x = int(center_x - w / 2)
                 y = int(center_y - h / 2)
                 
@@ -80,7 +80,6 @@ while True:
                 confidences.append(float(confidence))
                 class_ids.append(class_id)
     
-    # Non-maximum suppression (çakışan kutuları temizle)
     indexes = cv2.dnn.NMSBoxes(boxes, confidences, min_confidence, nms_threshold)
     
     if len(indexes) > 0:
@@ -91,19 +90,17 @@ while True:
             
             color = yolo_colors[class_ids[i]].tolist()
             
-            # Dikdörtgen çiz
+            # Dikdörtgen
             cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
             
-            # Etiket yaz
+            # Etiketler
             prediction_text = f"{label}: {confidence:.2f}%"
             cv2.putText(image, prediction_text, 
                        (x, y - 10 if y > 20 else y + 20),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, color, 2)
 
-    # Sonucu göster
     cv2.imshow("Object Detection", image)
     
-    # 'q' ile çık
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
