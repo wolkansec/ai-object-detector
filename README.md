@@ -28,7 +28,7 @@ elektronik eşyalar (dizüstü bilgisayar, telefon, klavye), günlük nesneler
 
 ### Adımlar
 ```bash
-# 1. Repoyu klonla
+# 1. Repoyu Klonlayın
 git clone https://github.com/wolkansec/ai-object-detector
 cd ai-object-detector
 
@@ -36,5 +36,5 @@ cd ai-object-detector
 wget https://pjreddie.com/media/files/yolov3.weights # (/model dizinine taşınması gereklidir!)
 pip install -r requirements.txt
 
-# 4. Projenin Çalıştırılması
+# 3. Projenin Çalıştırılması
 python3 main.py
